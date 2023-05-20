@@ -1,0 +1,178 @@
+/* Reset style */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-style: 100%;
+  line-height: 1;
+  font-style: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: inherit;
+  font-weight: 400;
+}
+
+/* ----------- */
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* ----------- */
+.header {
+  height: 120px;
+  background-color: #4BD6C4;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  color: #fff;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+.header__list {
+  padding: 15px 0 0 0;
+}
+
+.header__link {
+  color: #fff;
+  font-size: 22px;
+  margin: 0 65px 0 0;
+  transition: all .5s ease 0s;
+}
+
+.header__link:hover {
+  border-radius: 15px;
+  padding: 20px 15px;
+  background-color: rgba(51, 51, 144, 0.438);
+}
+
+/* ----------- */
+
+.title {
+  background-color: #9BBA1F;
+  height: 300px;
+  color: #fff;
+  padding: 30px 0 0 45px;
+}
+
+.title__title {
+  font-size: 42px;
+}
+
+.ttile__row {
+  display: flex;
+}
+
+.title__net {
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  line-height: 35px;
+  padding: 0 100px 0 0;
+}
+
+.title__adr {
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.footer {
+  height: 70px;
+}
+
+.footer__text {
+  font-size: 20px;
+  text-align: center;
+  padding: 25px 0 0 0;
+}
